@@ -9,3 +9,6 @@ Currently, two official plugins are available:
 
 # SnapShot of the Output
 ![ScreenShot](public/ss1.png)
+
+## SnapShot with improvizations
+![ScreenShot](public/ss2.png)

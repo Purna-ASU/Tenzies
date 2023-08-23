@@ -59,6 +59,19 @@ main {
   font-size: 2rem;
 }
 
+.roll-stats {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.roll-count {
+  color: #0B2434;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-right: 30px;
+}
+
 .roll-dice {
   height: 50px;
   width: 150px;
