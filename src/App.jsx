@@ -13,6 +13,7 @@ function App() {
     const firstValue = dice[0].value
     const allSameValue = dice.every(die => die.value === firstValue)
     if (allHeld && allSameValue)
+      setTenzies(true)
       console.log("You Won")
   },[dice])
 
@@ -53,7 +54,7 @@ function App() {
       <div className="dice-container">
         {diceElements}
       </div>
-      <button onClick={rollDice}>Roll</button>
+      <button className="roll-dice" onClick={rollDice}> {tenzies ? "New Game" : "Roll"} </button>
     </main>
   )
 }
